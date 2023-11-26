@@ -4,10 +4,104 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97ded7ab5f.js" crossorigin="anonymous"></script>
     <title>Vite App</title>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+  <body class="bg-[rgb(16,16,26)]">
+    <nav class="flex justify-between max-w-5xl mx-auto h-20 items-center border-b-[1px] border-[rgba(255,255,255,.6)]">
+      <p class="text-[#9A99EA]">Portfolio</p>
+      <button class="bg-[#1c212e] text-white w-[120px] h-10 rounded-lg">Registro</button>
+    </nav>
+
+    <section class="text-center flex flex-col pt-28 items-center">
+      <h1 class="text-[#9A99EA] text-7xl font-bold">Angel Moreno</h1>
+      <p class="text-[#94909D] text-2xl font-light mt-6">Entusiast FrontEnd developer</p>
+      <button class="bg-white w-44 h-10 rounded-xl mt-16">Descargar CV</button>
+
+      <img class=" shadow-blue-200 shadow-2xl w-[80%] mt-10 h-[600px]"
+        src="https://cdn.dribbble.com/userupload/11575800/file/original-e7d7a5f7011a6eb274db9da9202b7d75.png?resize=2048x1536&vertical=center"
+        />
+    </section>
+
+    <section class="text-center mt-14">
+      <span class="text-[#9A99EA] text-base">FEATURES</span>
+      <h2 class="text-4xl text-white mt-8">¿Qué hace especial a tu Portfolio?</h2>
+      <p class="text-[#94909D] text-2xl max-w-5xl mx-auto mt-6 font-light">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum illo quae dolorum vel commodi praesentium odit eveniet voluptate. Est soluta aperiam totam ab quos rem nisi
+      </p>
+
+      <div class="flex gap-10 justify-center mt-[100px]">
+        <div class="w-[300px] flex flex-col items-center">
+          <i class="fa-solid fa-house text-white mb-3"></i>
+          <h3 class="text-white text-lg mb-2">Titulo de la card</h3>
+          <p class="text-[#94909D] text-base font-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="w-[300px] flex flex-col items-center">
+          <i class="fa-solid fa-house text-white mb-3"></i>
+          <h3 class="text-white text-lg mb-2">Titulo de la card</h3>
+          <p class="text-[#94909D] text-base font-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="w-[300px] flex flex-col items-center">
+          <i class="fa-solid fa-house text-white mb-3"></i>
+          <h3 class="text-white text-lg mb-2">Titulo de la card</h3>
+          <p class="text-[#94909D] text-base font-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="w-[300px] flex flex-col items-center">
+          <i class="fa-solid fa-house text-white mb-3"></i>
+          <h3 class="text-white text-lg mb-2">Titulo de la card</h3>
+          <p class="text-[#94909D] text-base font-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center mt-32">
+      <span class="text-[#9A99EA] text-base">FEATURES</span>
+      <h2 class="text-4xl text-white mt-8">¿Qué hace especial a tu Portfolio?</h2>
+      <p class="text-[#94909D] text-2xl max-w-5xl mx-auto mt-6 font-light">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum illo quae dolorum vel commodi praesentium odit eveniet voluptate. Est soluta aperiam totam ab quos rem nisi
+      </p>
+      <div class="flex gap-16 justify-center my-[120px] items-center">
+        <div class="bg-[#161720] w-[320px] rounded-2xl text-left p-8 hover:bg-[#1F202B] max-h-[400px]">
+          <h3 class="text-[#94909D] text-base">Professional</h3>
+          <h2 class="text-white text-xl mt-3 mb-6">Free</h2>
+          <p class="text-[#94909D] text-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <hr class="my-6 opacity-10"/>
+          <p class="text-white text-sm mb-4 font-light">🤓 Lorem ipsum dolor sit amet</p>        
+          <p class="text-white text-sm font-light">🤓 Lorem ipsum dolor sit amet</p>        
+          <button class="bg-white w-full h-10 rounded-xl mt-10">Registrate gratis</button>
+        </div>
+        <div class="bg-[#161720] w-[320px] rounded-2xl text-left p-8 hover:bg-[#1F202B]">
+          <h3 class="text-[#94909D] text-base">Entrepenur</h3>
+          <h2 class="text-white text-xl mt-3 mb-6">199$</h2>
+          <p class="text-[#94909D] text-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <hr class="my-6 opacity-10"/>
+          <p class="text-white text-sm mb-4 font-light">🫥 Lorem ipsum dolor sit amet</p>        
+          <p class="text-white text-sm mb-4 font-light">🥶 Lorem ipsum dolor sit amet</p>        
+          <p class="text-white text-sm mb-4 font-light">🥶 Lorem ipsum dolor sit amet</p>        
+          <p class="text-white text-sm font-light">🥶 Lorem ipsum dolor sit amet</p>        
+          <button class="bg-white w-full h-10 rounded-xl mt-10">Registrate gratis</button>
+        </div>
+        <div class="bg-[#161720] w-[320px] rounded-2xl text-left p-8 hover:bg-[#1F202B]">
+          <h3 class="text-[#94909D] text-base">Enterprise</h3>
+          <h2 class="text-white text-xl mt-3 mb-6">299$</h2>
+          <p class="text-[#94909D] text-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <hr class="my-6 opacity-10"/>
+          <p class="text-white text-sm mb-4 font-light">🫎 Lorem ipsum dolor sit amet</p>        
+          <p class="text-white text-sm mb-4 font-light">🐧 Lorem ipsum dolor sit amet</p>        
+          <p class="text-white text-sm mb-4 font-light">😶‍🌫️ Lorem ipsum dolor sit amet</p>        
+          <p class="text-white text-sm font-light">🤓 Lorem ipsum dolor sit amet</p>        
+          <button class="bg-white w-full h-10 rounded-xl mt-10">Registrate gratis</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
